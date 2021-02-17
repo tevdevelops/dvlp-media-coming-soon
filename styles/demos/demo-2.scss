@@ -27,7 +27,11 @@
 }
 
 .demo-2__title {
-  font: 800 20rem/1 'moret', serif;
+  font: 400 20rem/1 "Fugaz One", serif;
+}
+
+.demo-2__caption {
+  font: 400 5rem/1 "Open Sans", sans-serif;
 }
 
 .demo-2__description {
@@ -39,7 +43,7 @@
 .demo-2__gallery {
   height: 100%;
   position: relative;
-  width: 520rem;
+  width: 950rem;
   visibility: hidden;
 }
 
@@ -92,6 +96,41 @@
     height: 75rem;
     left: 430rem;
     top: 30rem;
+    width: 70rem;
+  }
+
+  &:nth-child(8) {
+    height: 75rem;
+    left: 520rem;
+    top: 5rem;
+    width: 70rem;
+  }
+
+  &:nth-child(9) {
+    height: 75rem;
+    left: 610rem;
+    bottom: 5rem;
+    width: 50rem;
+  }
+
+  &:nth-child(10) {
+    height: 75rem;
+    left: 680rem;
+    top: 30rem;
+    width: 70rem;
+  }
+
+  &:nth-child(11) {
+    height: 75rem;
+    left: 770rem;
+    top: 40rem;
+    width: 70rem;
+  }
+
+  &:nth-child(12) {
+    height: 75rem;
+    left: 860rem;
+    top: 20rem;
     width: 70rem;
   }
 }

@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-family: 'halyard-display', sans-serif;
+  font-family: "Fugaz One", sans-serif;
   font-size: 15px;
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
@@ -31,9 +31,9 @@ body {
 
   &:after {
     animation: grain 6s steps(10) infinite;
-    background-image: url('../images/grain.png');
+    background-image: url("../images/grain.png");
     background-repeat: repeat;
-    content: '';
+    content: "";
     height: 300%;
     left: -100%;
     opacity: 0;
@@ -56,7 +56,7 @@ body #cdawrap {
   --cda-left: 3rem;
   --cda-width: 400px;
   --cda-footer-fontsize: initial;
-  --cda-footer-color: rgba(255,255,255,0.5);
+  --cda-footer-color: rgba(255, 255, 255, 0.5);
 }
 
 body #cdawrap a:hover {
@@ -78,7 +78,7 @@ canvas {
   width: 100%;
 
   .loaded & {
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -96,15 +96,37 @@ a {
 }
 
 @keyframes grain {
-  0% { transform: translate(20%, -15%) }
-  10% { transform: translate(-20%, -15%) }
-  20% { transform: translate(20%, -5%) }
-  30% { transform: translate(-20%, -5%) }
-  40% { transform: translate(20%, 5%) }
-  50% { transform: translate(-20%, 5%) }
-  60% { transform: translate(20%, 15%) }
-  70% { transform: translate(-20%, 15%) }
-  80% { transform: translate(20%, 5%) }
-  90% { transform: translate(-20%, 5%) }
-  100% { transform: translate(20%, -5%) }
+  0% {
+    transform: translate(20%, -15%);
+  }
+  10% {
+    transform: translate(-20%, -15%);
+  }
+  20% {
+    transform: translate(20%, -5%);
+  }
+  30% {
+    transform: translate(-20%, -5%);
+  }
+  40% {
+    transform: translate(20%, 5%);
+  }
+  50% {
+    transform: translate(-20%, 5%);
+  }
+  60% {
+    transform: translate(20%, 15%);
+  }
+  70% {
+    transform: translate(-20%, 15%);
+  }
+  80% {
+    transform: translate(20%, 5%);
+  }
+  90% {
+    transform: translate(-20%, 5%);
+  }
+  100% {
+    transform: translate(20%, -5%);
+  }
 }
